@@ -1,0 +1,26 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Poppins:ital,wght@0,400;0,500;1,400&family=Roboto+Condensed&family=Rubik+Moonrocks&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+/* top player style */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* অথবা আরেক ভাবে করা যায় */
+    /* grid-template-columns: 1fr 1fr 1fr;*/
+}
+
+.player{
+    display: flex;
+    align-items: center;
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+}
